@@ -1,0 +1,20 @@
+{
+  "name": "copper",
+  "version": "1.0.0",
+  "description": "Example express server",
+  "main": "copper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "S Rayner",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mongodb": "^2.0.42",
+    "mongoose": "^4.1.3"
+  }
+}
