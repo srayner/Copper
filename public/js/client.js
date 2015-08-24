@@ -10,3 +10,11 @@ app.controller('driversController', function($scope, $http) {
     });
     
 });
+
+app.controller('teamsController', function($scope, $http) {
+    
+    $http.get("/teams").success(function(response) {
+        $scope.teams = response;
+    });
+    
+});
